@@ -33,6 +33,9 @@ li {
     color: #000000;
 }
 
+.nav-link.active {
+    color: var(--hover-color);
+}
 
 .nav-link {
     color: var(--secondary-color);
@@ -48,9 +51,7 @@ li {
 .nav-link:focus {
     color: var(--hover-color);
 }
-.nav-link.active {
-    color: var(--hover-color);
-}
+
 
 .header-link {
     color: var(--main-color);
